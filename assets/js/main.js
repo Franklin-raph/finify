@@ -30,8 +30,9 @@
             items: 1,
             loop: true,
             autoplay: true,
+            autoplayTimeout:5000,
             nav: true,
-            dots: false,
+            dots: true,
             navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
             responsive:{
                 0:{
