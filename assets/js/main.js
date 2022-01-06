@@ -25,6 +25,10 @@
             }
         });
 
+        $(window).on('load', function(){
+            new WOW().init(); 
+        });
+
         // homepage slider
         $(".homepage-slider").owlCarousel({
             items: 1,
